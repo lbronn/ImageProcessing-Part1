@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ImageProcessing-Part1/1.0.0": {
+        "runtime": {
+          "ImageProcessing-Part1.dll": {}
+        },
+        "resources": {
+          "dje/ImageProcessing-Part1.resources.dll": {
+            "locale": "dje"
+          },
+          "en/ImageProcessing-Part1.resources.dll": {
+            "locale": "en"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImageProcessing-Part1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
