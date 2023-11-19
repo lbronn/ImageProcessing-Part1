@@ -106,7 +106,7 @@ namespace ImageProcessing_Part1
             {
                 for (int j = 0; j < Math.Min(histogramData[i] / 5, 800); j++)
                 {
-                    histogramGraph.SetPixel(i, j, Color.White);
+                    histogramGraph.SetPixel(i, j, Color.Black);
                 }
             }
 
