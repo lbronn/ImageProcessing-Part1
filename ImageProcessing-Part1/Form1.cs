@@ -166,7 +166,13 @@ namespace ImageProcessing_Part1
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.ShowDialog();
+            if(pictureBox2.Image != null)
+            {
+                saveFileDialog1.ShowDialog();
+            } else
+            {
+                MessageBox.Show("Picture Box 2 is empty, cannot save.", "Saving Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void saveFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
